@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured Layout Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+    <header class="flex justify-between items-start p-4" style="position: relative; height: 180px;">
+        <div>
+            <div class="text-style " style="position: absolute; left: 20px; top: 78px;">9시</div>
+            <div class="text-style" style="position: absolute; left: 20px; top: 100px;">멀티미디어관</div>
+        </div>
+        <div class="custom-div"></div>
+        <div class="time-text" id="time"></div>
+        <div class="day-text" id="day"></div>
+        <div class="class-name information-text">수업이름</div>
+    </header>
+   <form id="data"> 
+   <input type="text" id="class-search" placeholder="수업을 입력하세요">
+    <div id="search-results" class="search-results"></div>
+    <div class="elevator-count-text">엘리베이터 대기자 수</div>
+    <br>
+    <div> 
+    <input type="range" id="slider" oninput="document.getElementById('slider-value').innerHTML=this.value+'명';" min="0" max="20"> 
+    <div id="slider-value" >10명</div>
+    </div>
+
+    <div class="information-text" style="top:350px" >현재 엘리베이터 상태</div>
+    <br><br>
+    <input type="text" id="elevator-floor" style="top:400px" placeholder="현재 엘리베이터는 몇층에 있나요?">
+    <div class="center-horizontally">
+    <input type="radio" id="elevator-up" name="upOrDown" value="up"> 
+    <label for="elevator-up">상승중</label> 
+    <input type="radio" id="elevator-down" name="upOrDown" value="down">
+    <label for="elevator-up">하강중</label>
+    <br>
+   <input type="submit" value="눌러 결과보기">
+    </div> 
+</form>
+
+<!--팝업-->
+  <div class="modal-background">
+        <div class="modal-content">
+            <p id="popup-text">엘베타세요</p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+   <script src="script.js">
+    </script>
+</body>
+</html>
