@@ -499,8 +499,9 @@ function floorToButtomByElevator(ElevatorState){
 }
 function getClasseFloor(day){ 
     const input = document.getElementById('class-search');
+    const now = new Date()
     let floor=0
-    let todayClass=classes[day]
+    let todayClass=classes[now.getDay()-1]
     for (let i in todayClass){
         console.log(todayClass[i].name)
         if (todayClass[i].name==input.value){
