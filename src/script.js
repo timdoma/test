@@ -3,31 +3,15 @@ const classes= [[{
     "floor": 1
   },
   {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 1층",
     "floor": 1
   },
   {
-    "name": "성찰과 표현",
-    "floor": 1
-  },
-  {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 2층",
     "floor": 2
-  },
+  }, 
   {
-    "name": "성찰과 표현",
-    "floor": 2
-  },
-  {
-    "name": "성찰과 표현",
-    "floor": 2
-  },
-  {
-    "name": "물리학및실험1",
-    "floor": 4
-  },
-  {
-    "name": "물리학및실험1",
+    "name": "물리학및실험1 4층",
     "floor": 4
   },
   {
@@ -39,10 +23,6 @@ const classes= [[{
     "floor": 4
   },
   {
-    "name": "학교현장실습",
-    "floor": ""
-  },
-  {
     "name": "빅뱅에서 문명까지",
     "floor": 4
   },
@@ -50,14 +30,7 @@ const classes= [[{
     "name": "인간의 가치 탐색",
     "floor": 4
   },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
+  
   {
     "name": "평화와 갈등",
     "floor": 7
@@ -66,10 +39,7 @@ const classes= [[{
     "name": "대학영어",
     "floor": 7
   },
-  {
-    "name": "대학영어",
-    "floor": 7
-  },
+  
   {
     "name": "국가폭력과 트라우마",
     "floor": 8
@@ -79,13 +49,13 @@ const classes= [[{
     "floor": 8
   },
   {
-    "name": "인간의 가치 탐색",
+    "name": "인간의 가치 탐색 8층",
     "floor": 8
   }
 ],
 [
   {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 1층",
     "floor": 1
   },
   {
@@ -113,13 +83,10 @@ const classes= [[{
     "floor": 2
   },
   {
-    "name": "주제연구",
+    "name": "주제연구 2층",
     "floor": 2
   },
-  {
-    "name": "물리학 및 실험 1",
-    "floor": 4
-  },
+  
   {
     "name": "물리학 및 실험 1",
     "floor": 4
@@ -128,18 +95,12 @@ const classes= [[{
     "name": "물리학1",
     "floor": 4
   },
+  
   {
     "name": "인간의 가치 탐색",
     "floor": 4
   },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
+  
   {
     "name": "숨겨진 패턴",
     "floor": 5
@@ -152,16 +113,10 @@ const classes= [[{
     "name": "세계와 시민",
     "floor": 6
   },
+  
+  
   {
-    "name": "세계와 시민",
-    "floor": 6
-  },
-  {
-    "name": "세계와 시민",
-    "floor": 6
-  },
-  {
-    "name": "주제연구",
+    "name": "주제연구 6층",
     "floor": 6
   },
   {
@@ -172,12 +127,9 @@ const classes= [[{
     "name": "대학영어",
     "floor": 7
   },
+  
   {
-    "name": "대학영어",
-    "floor": 7
-  },
-  {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 8층",
     "floor": 8
   },
   {
@@ -192,42 +144,25 @@ const classes= [[{
     "name": "인간의 가치 탐색",
     "floor": 8
   }],
-[{
-    "name": "수업 이름",
-    "floor": "수요일 호실"
-  },
+[
   {
     "name": "선형대수",
     "floor": 1
   },
   {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 1층",
     "floor": 1
   },
+  
   {
-    "name": "성찰과 표현",
-    "floor": 1
-  },
-  {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 2층",
     "floor": 2
   },
   {
-    "name": "성찰과 표현",
-    "floor": 2
-  },
-  {
-    "name": "성찰과 표현",
-    "floor": 2
-  },
-  {
-    "name": "물리학및실험1",
+    "name": "물리학및실험1 3층",
     "floor": 3
   },
-  {
-    "name": "물리학및실험1",
-    "floor": 3
-  },
+  
   {
     "name": "물리학1",
     "floor": 4
@@ -245,17 +180,11 @@ const classes= [[{
     "floor": 4
   },
   {
-    "name": "인간의 가치 탐색",
+    "name": "인간의 가치 탐색 4층",
     "floor": 4
   },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
+  
+  
   {
     "name": "평화와 갈등",
     "floor": 7
@@ -264,10 +193,7 @@ const classes= [[{
     "name": "대학영어",
     "floor": 7
   },
-  {
-    "name": "대학영어",
-    "floor": 7
-  },
+  
   {
     "name": "국가폭력과 트라우마",
     "floor": 8
@@ -277,7 +203,7 @@ const classes= [[{
     "floor": 8
   },
   {
-    "name": "인간의 가치 탐색",
+    "name": "인간의 가치 탐색 8층",
     "floor": 8
   },
   {
@@ -285,22 +211,16 @@ const classes= [[{
     "floor": 8
   }],
 [
+  
   {
-    "name": "수업 이름",
-    "floor": "목요일"
-  },
-  {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 1층",
     "floor": 1
   },
   {
-    "name": "주제연구",
+    "name": "주제연구 1층",
     "floor": 1
   },
-  {
-    "name": "주제연구",
-    "floor": 1
-  },
+  
   {
     "name": "인간과 생활 속의 로봇",
     "floor": 2
@@ -318,17 +238,14 @@ const classes= [[{
     "floor": 2
   },
   {
-    "name": "주제연구",
+    "name": "주제연구 2층",
     "floor": 2
   },
   {
     "name": "물리학 및 실험 1",
     "floor": 3
   },
-  {
-    "name": "물리학 및 실험 1",
-    "floor": 3
-  },
+  
   {
     "name": "물리학1",
     "floor": 4
@@ -337,14 +254,7 @@ const classes= [[{
     "name": "인간의 가치 탐색",
     "floor": 4
   },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
-  {
-    "name": "인간의 가치 탐색",
-    "floor": 4
-  },
+  
   {
     "name": "숨겨진 패턴",
     "floor": 5
@@ -354,7 +264,7 @@ const classes= [[{
     "floor": 6
   },
   {
-    "name": "주제연구",
+    "name": "주제연구 6층",
     "floor": 6
   },
   {
@@ -365,12 +275,9 @@ const classes= [[{
     "name": "대학영어",
     "floor": 7
   },
+  
   {
-    "name": "대학영어",
-    "floor": 7
-  },
-  {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 8층",
     "floor": 8
   },
   {
@@ -394,11 +301,11 @@ const classes= [[{
     "floor": 1
   },
   {
-    "name": "성찰과표현",
+    "name": "성찰과표현 1층",
     "floor": 1
   },
   {
-    "name": "주제연구",
+    "name": "주제연구 1층",
     "floor": 1
   },
   {
@@ -410,7 +317,7 @@ const classes= [[{
     "floor": 2
   },
   {
-    "name": "성찰과 표현",
+    "name": "성찰과 표현 2층",
     "floor": 2
   },
   {
@@ -449,18 +356,8 @@ const classes= [[{
     "name": "세계와 시민",
     "floor": 6
   },
-  {
-    "name": "세계와 시민",
-    "floor": 6
-  },
-  {
-    "name": "세계와 시민",
-    "floor": 6
-  },
-  {
-    "name": "대학영어",
-    "floor": 7
-  },
+  
+  
   {
     "name": "대학영어",
     "floor": 7
@@ -474,7 +371,6 @@ const classes= [[{
     "floor": 8
   }
 ]]
-  
   
   
   
