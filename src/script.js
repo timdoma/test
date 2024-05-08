@@ -374,6 +374,10 @@ const classes= [[{
   
   
   
+  
+  
+  
+  
 document.addEventListener('DOMContentLoaded', function() {
         const input = document.getElementById('class-search');
     const results = document.getElementById('search-results');
