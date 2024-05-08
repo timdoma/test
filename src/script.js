@@ -251,7 +251,7 @@ const classes= [[{
     "floor": 4
   },
   {
-    "name": "인간의 가치 탐색",
+    "name": "인간의 가치 탐색 4층",
     "floor": 4
   },
   
@@ -289,7 +289,7 @@ const classes= [[{
     "floor": 8
   },
   {
-    "name": "인간의 가치 탐색",
+    "name": "인간의 가치 탐색 8층",
     "floor": 8
   }],
 [{
@@ -490,8 +490,8 @@ function buttomToFloorByElevator(floor){//1층에서 목표 층까지 가는데 
 function floorToButtomByElevator(ElevatorState){
     floorTobuttom = [0,0, 17,21, 24, 27, 28, 29, 31, 34] 
     if (ElevatorState.isUp==true){
-     let floorToTop=buttomToFloorByElevator(9)-buttomToFloorByElevator(ElevatorState.floor)       
-     const topTobuttom=floorTobuttom[9]
+     let floorToTop=buttomToFloorByElevator(8)-buttomToFloorByElevator(ElevatorState.floor)       
+     const topTobuttom=floorTobuttom[8]
      console.log("floor to buttom", floorToTop+topTobuttom)
      return floorToTop+topTobuttom
      }
@@ -543,8 +543,9 @@ function IsElevatorMoreFast(floor,watings,ElevatorState){
     elevator= floorToButtomByElevator(ElevatorState)+buttomToFloorByElevator(floor)
    console.log("elevator: ", elevator, "stair:", stair)
     if (watings>15){
-      watingDelay=buttomToFloorByElevator(9)+floorToButtomByElevator({floor:9, isUp:false})
+      watingDelay=buttomToFloorByElevator(8)+floorToButtomByElevator({floor:8, isUp:false})
       elevator+=watingDelay
+      console.log("elevator is ", elevator)
       }
     
    return elevator<stair
