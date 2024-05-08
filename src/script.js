@@ -1,4 +1,4 @@
-import classes from "src/class.json" assert { type: "json" };
+import classes from "/src/class.json" assert { type: "json" };
 
 document.addEventListener('DOMContentLoaded', function() {
         const input = document.getElementById('class-search');
