@@ -449,11 +449,16 @@ setInterval(updateTimeAndDay, 1000); // Update time every second
                 floor: getElevatorFlooorAtNow(),
                 isUp: getElevatorIsUp()
             }
-            if (IsElevatorMoreFast(floor, watings, elevatorState)){
-                message.innerText="엘리베이터로 가세요."
+          let elevatorVSStair =IsElevatorMoreFast(floor, watings, elevatorState)
+          const elevator=elevatorVSStair.elv
+          const stair= elevatorVSStair.sta
+          if (elevatorVSStair.IsElevatorMoreFast){
+
+                message.innerText="엘리베이터로 가세요. "+ String(stair- elevator)+"초 더 빠릅니다."
+                
             }
             else{
-                message.innerText="계단으로 가세요"
+                message.innerText="계단으로 가세요. " + String(elevator-stair)+"초 더 빠릅니다."
             }
         });
 
@@ -548,5 +553,5 @@ function IsElevatorMoreFast(floor,watings,ElevatorState){
       console.log("elevator is ", elevator)
       }
     
-   return elevator<stair
+   return {IsElevatorMoreFast:elevator<stair, "elv":elevator, "sta":stair}
     }
